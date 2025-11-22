@@ -28,7 +28,7 @@ export const translations = {
         },
         contact: {
             title: "Begin Your Journey",
-            subtitle: "Our concierge team in Sidi Yahia is ready to assist you.",
+            subtitle: "Our concierge team in BATNA is ready to assist you.",
             name: "Full Name",
             phone: "Phone Number",
             email: "Email Address",
@@ -77,7 +77,7 @@ export const translations = {
             email: "Adresse Email",
             message: "Véhicule d'Intérêt",
             submit: "Demander une Consultation",
-            address: "Sidi Yahia, Alger, DZ",
+            address: "BATNA, DZ",
             call: "Ligne Directe"
         },
         footer: {
@@ -120,7 +120,7 @@ export const translations = {
             email: "البريد الإلكتروني",
             message: "السيارة المطلوبة",
             submit: "طلب استشارة",
-            address: "سيدي يحيى، الجزائر العاصمة",
+            address: "باتنة ، الجزائر",
             call: "خط مباشر"
         },
         footer: {

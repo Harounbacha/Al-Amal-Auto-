@@ -18,7 +18,7 @@ const Footer = () => {
 
                 {/* Social Links */}
                 <div className="flex gap-10 text-[10px] font-bold uppercase tracking-[0.2em] text-white/50">
-                    <a href="#" className="hover:text-gold-400 transition-colors">Facebook</a>
+                    <a href="https://www.facebook.com/BOUZID.RENOVATION" className="hover:text-gold-400 transition-colors">Facebook</a>
                     <a href="#" className="hover:text-gold-400 transition-colors">Instagram</a>
                     <a href="#" className="hover:text-gold-400 transition-colors">Legal</a>
                 </div>

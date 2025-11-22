@@ -34,13 +34,27 @@ const Navbar = () => {
             <div className="container mx-auto px-6 flex justify-between items-center">
                 
                 {/* Logo & Brand Name */}
-                <a href="#home" className="flex items-center gap-2 group cursor-pointer z-[101] relative">
-                    <div className="p-2 border border-gold-500/50 bg-emerald-900/30 backdrop-blur group-hover:bg-gold-500 transition-colors duration-500">
-                        <Crown className="w-6 h-6 text-gold-400 group-hover:text-emerald-950 transition-colors" />
+                <a href="#home" className="flex items-center gap-4 group cursor-pointer z-[101] relative">
+                    {/* Logo Icon */}
+                    <div className="p-3 border border-gold-500/50 bg-emerald-900/30 backdrop-blur group-hover:bg-gold-500 transition-colors duration-500 rounded-md">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 100 100"
+                            fill="currentColor"
+                            className="w-10 h-10 text-white group-hover:text-emerald-950 transition-colors"
+                        >
+                            <path d="M50 5L15 25v50l35 20 35-20V25L50 5z" />
+                            <path d="M50 5v90M15 25l35 20 35-20" />
+                        </svg>
                     </div>
+
+                    {/* Logo Text */}
                     <div className="flex flex-col">
                         <span className="text-2xl font-bold tracking-widest text-white leading-none font-serif">
-                            DZ<span className="text-gold-400">AUTO</span>
+                            Groupe <span className="text-gold-400">Al Amal Auto</span>
+                        </span>
+                        <span className="text-xs text-white/80 tracking-wide font-light">
+                            Car Export Company
                         </span>
                     </div>
                 </a>

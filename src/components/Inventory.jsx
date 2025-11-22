@@ -47,15 +47,15 @@ const Inventory = () => {
     return (
         <section id="inventory" className="py-32 bg-stone-50 border-t border-stone-200">
             <div className="container mx-auto px-6">
-                <Reveal>
+               <Reveal>
                     <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
                         <div>
                             <h2 className="text-4xl font-serif text-emerald-950 mb-3">{t.inventory.title}</h2>
                             <p className="text-stone-500 font-light text-lg">{t.inventory.subtitle}</p>
                         </div>
-                        <button className="px-6 py-3 border border-emerald-900 text-emerald-900 hover:bg-emerald-900 hover:text-white transition-all text-xs font-bold uppercase tracking-widest">
-                            {t.inventory.btn}
-                        </button>
+                        {/*<button className="px-6 py-3 border border-emerald-900 text-emerald-900 hover:bg-emerald-900 hover:text-white transition-all text-xs font-bold uppercase tracking-widest">
+                          {t.inventory.btn}
+                       </button>*/}
                     </div>
                 </Reveal>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
