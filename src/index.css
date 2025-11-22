@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* --- REQUIRED TAILWIND DIRECTIVES --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ------------------------------------ */
+
+/* Base Styles */
+body { 
+  font-family: 'Cairo', sans-serif; 
+  /* The text-emerald-950 color makes it visible on the white sections */
+  @apply bg-stone-50 text-emerald-950 antialiased selection:bg-gold-500 selection:text-white; 
+}
+
+h1, h2, h3, .font-serif { 
+  font-family: 'Playfair Display', serif; 
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #022c22; }
+::-webkit-scrollbar-thumb { background: #d97706; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #fbbf24; }
+
+html { scroll-behavior: smooth; }
+
+/* Model Viewer */
+model-viewer {
+    width: 100%;
+    height: 100%;
+    --poster-color: transparent;
+    outline: none; 
+}
+
+/* Animations */
+/* These CSS keyframes are necessary for your reveal/fade-in components */
+.fade-in-up { animation: fadeInUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; opacity: 0; transform: translateY(30px); }
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-500 { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+    to { opacity: 1; transform: translateY(0); }
+}
