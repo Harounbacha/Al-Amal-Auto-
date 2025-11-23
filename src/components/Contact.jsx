@@ -73,7 +73,7 @@ const Contact = () => {
                         {t.contact.title}
                     </span>
                     <h3 className="text-4xl md:text-6xl font-serif mb-8 leading-tight text-white">
-                        Your new car awaits.
+                        Your new car awaits
                     </h3>
                     <p className="text-emerald-100/70 text-lg mb-12 font-light leading-relaxed max-w-md">
                         {t.contact.subtitle}

@@ -12,8 +12,8 @@ export const translations = {
             stat_sat: "Client Satisfaction"
         },
         features: {
-            title: "The DZ Auto Standard",
-            desc: "Excellence without compromise.",
+            title: "Al Amal Auto",
+            desc: "effortlessly simple",
             f1_t: "Global Sourcing", f1_d: "Direct access to elite Seoul & Shanghai auctions.",
             f2_t: "Certified Quality", f2_d: "Rigorous 150-point master technician inspection.",
             f3_t: "Premium Logistics", f3_d: "Secure, insured shipping to Algerian ports.",
@@ -55,8 +55,8 @@ export const translations = {
             stat_sat: "Satisfaction Client"
         },
         features: {
-            title: "Le Standard DZ Auto",
-            desc: "L'excellence sans compromis.",
+            title: "Al Amal Auto",
+            desc: "Vraiment simple",
             f1_t: "Sourcing Mondial", f1_d: "Accès direct aux enchères d'élite de Séoul et Shanghai.",
             f2_t: "Qualité Certifiée", f2_d: "Inspection technique rigoureuse en 150 points.",
             f3_t: "Logistique Premium", f3_d: "Expédition sécurisée et assurée vers les ports algériens.",
@@ -71,7 +71,7 @@ export const translations = {
         },
         contact: {
             title: "Commencez le Voyage",
-            subtitle: "Notre équipe de conciergerie à Sidi Yahia est à votre service.",
+            subtitle: "Notre équipe de conciergerie à BATNA est à votre service.",
             name: "Nom Complet",
             phone: "Numéro de Téléphone",
             email: "Adresse Email",
@@ -98,8 +98,8 @@ export const translations = {
             stat_sat: "رضا العملاء"
         },
         features: {
-            title: "معايير دي زد أوتو",
-            desc: "التميز بلا حدود.",
+            title: "Al Amal Auto",
+            desc: "أسهل مما تتصور",
             f1_t: "مصادر عالمية", f1_d: "وصول حصري لنخبة المزادات في سيول وشانغهاي.",
             f2_t: "جودة معتمدة", f2_d: "فحص فني دقيق يشمل 150 نقطة.",
             f3_t: "لوجستيات فاخرة", f3_d: "شحن مؤمن وآمن إلى الموانئ الجزائرية.",
@@ -114,7 +114,7 @@ export const translations = {
         },
         contact: {
             title: "ابدأ رحلتك",
-            subtitle: "فريقنا في سيدي يحيى مستعد لخدمتك.",
+            subtitle: "فريقنا باتنة مستعد لخدمتك.",
             name: "الاسم الكامل",
             phone: "رقم الهاتف",
             email: "البريد الإلكتروني",

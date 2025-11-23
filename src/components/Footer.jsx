@@ -11,7 +11,7 @@ const Footer = () => {
                 {/* Brand & Tagline */}
                 <div className="text-center md:text-left rtl:text-right">
                     <h2 className="text-3xl font-serif font-bold text-white tracking-wide mb-2">
-                        DZ<span className="text-gold-500">AUTO</span>
+                    Groupe<span className="text-gold-500"> Al Amal Auto</span>
                     </h2>
                     <p className="text-xs uppercase tracking-widest opacity-50">{t.footer.desc}</p>
                 </div>
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <p className="text-[10px] uppercase tracking-widest opacity-20">
-                    © 2024 DZ Auto Import. {t.footer.rights}
+                    © 2025 Groupe Al Amal Auto. {t.footer.rights}
                 </p>
             </div>
         </footer>
